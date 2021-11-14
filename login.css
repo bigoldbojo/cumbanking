@@ -12,3 +12,21 @@
     width: var(--wid);
     text-align: center;
 }
+
+#logindiv table {
+    width: var(--wid);
+    margin: 0 auto;
+}
+
+#logindiv td {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#logindiv .left {
+    text-align: right;
+}
+
+#logindiv .right {
+    text-align: left;
+}

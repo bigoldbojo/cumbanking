@@ -7,7 +7,9 @@ function login() {
         window.location.assign("personal");
     }
     else {
-        alert("Login details incorrect. Please try again.")
+        alert("Login details incorrect. Please try again.");
+        document.getElementById("form").reset();
+        document.getElementById("userid").focus();
     }
     return false;
 }
