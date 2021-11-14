@@ -1,0 +1,223 @@
+:root {
+    font-family: Arial;
+    --theme-color: #00a4ff;
+    --wid: min(90vw, calc(calc(4 / 3) * 100vh));
+    font-size: 18px;
+    background-color: white;
+    color: white;
+    background-size: 100%;
+}
+
+#container {
+    width: var(--wid);
+    position: fixed;
+    top: 0;
+    left: calc(50vw - calc(var(--wid) / 2));
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    color: var(--theme-color);
+}
+
+#header {
+    position: fixed;
+    padding: 0 26px;
+    background-color: #bbb;
+    top: 0;
+    margin: 0 0;
+    padding: 0;
+    width: var(--wid);
+    height: 78px;
+    z-index: 1;
+}
+
+#header img {
+    padding: 24px auto;
+    margin: 24px 0 24px 32px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+#header h1 {
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 auto;
+    margin: 26px 10px;
+}
+
+#header h2 {
+    font-size: 24px;
+    margin: 26px 0;
+    display: inline-block;
+    position: absolute;
+    left: 275px;
+    top: 0px;
+    padding: 0 auto;
+    clear: left;
+}
+
+#navigation {
+    position: fixed;
+    background-color: #bbb;
+    top: 78px;
+    margin: 0;
+    padding: 0;
+    width: var(--wid);
+    height: 60px;
+    z-index: 1;
+}
+
+#navigation ul {
+    list-style-type: none;
+    position: absolute;
+    left: 275px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+#navigation ul li {
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#navigation ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    height: 20px;
+    text-decoration: none;
+}
+
+#navigation ul li a:link, #navigation ul li a:visited {
+    background-color: #ddd;
+    color: black;
+    font-weight: normal;
+}
+
+#navigation ul li a.active:link, #navigation ul li a.active:visited {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#navigation ul li a:hover {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+
+#navigation ul li a.active:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#navigation ul li a:active {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+
+#navigation ul li a.active:active {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#navigation button, #navigation input {
+    position: fixed;
+    top: 0px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    height: 48px;
+    width: 96px;
+    padding: 0;
+    display: inline-block;
+}
+
+#navigation button {
+    width: 96px;
+    margin: 6px 12px;
+}
+
+#navigation input#filter-box {
+    width: 276px;
+    background-color: white;
+    /*background-image: linear-gradient(to right, #ddd , #aaa);*/
+    color: black;
+    border-radius: 12px;
+    display: none;
+    left: 96px;
+    margin: 6px 24px;
+}
+
+#navigation input#filter-box[type="text"] {
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+#navigation button#collapseButton {
+    background-color: white;
+    /*background-image: linear-gradient(to right, #fff , #aaa);*/
+    color: black;
+    display: none;
+}
+
+#navigation button#expandButton {
+    background-color: #333;
+    /*background-image: linear-gradient(to right, #444 , #222);*/
+    color: white;
+    display: inline-block;
+}
+
+#content {
+    padding: 0;
+    width: var(--wid);
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+a, button {
+    transition: 0.05s;
+}
+
+a:link, a:visited {
+    color: #fff
+}
+
+a:hover {
+    color: #aaa
+}
+
+a:active {
+    color: #ddd
+}
+
+#footer {
+    width: var(--wid);
+    display: block;
+    margin: 0px auto;
+}
+
+#footer p {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    margin: 0 auto;
+    padding: 12px 0;
+    background-color: #bbb;
+    width: var(--wid);
+}

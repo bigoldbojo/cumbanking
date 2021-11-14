@@ -1,0 +1,14 @@
+#content {
+    top: 278px; /* 78 if navigation not shown, 138 if navigation shown. */
+    height: 50vh;
+}
+
+#logindiv {
+    height: 250px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: var(--wid);
+    text-align: center;
+}
