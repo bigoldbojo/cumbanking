@@ -50,24 +50,32 @@
             <section id="content">
                 <div id="logindiv">
                     <h2>
-                        Please enter your login credentials.
+                        Please enter your personal details.
                     </h2>
                     <form id="form" method="POST" onsubmit="return login();">
                         <table>
                             <tr>
                                 <td class="left">
-                                    <label for="userid">Personal ID:</label>
+                                    <label for="firstName">First Name:</label>
                                 </td>
                                 <td class="right">
-                                    <input type="text" id="userid" name="userid">
+                                    <input type="text" id="firstName" name="firstName">
                                 </td>
                             </tr>
                             <tr>
                                 <td class="left">
-                                    <label for="password">Security Number:</label>
+                                    <label for="surname">Surname:</label>
                                 </td>
                                 <td class="right">
-                                    <input type="password" id="password" name="password">
+                                    <input type="text" id="surname" name="surname">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="left">
+                                    <label for="dateOfBirth">Date of Birth:</label>
+                                </td>
+                                <td class="right">
+                                    <input type="date" id="dateOfBirth" name="dateOfBirth">
                                 </td>
                             </tr>
                             <tr>
