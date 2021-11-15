@@ -1,3 +1,3 @@
 { 
-    "mongoPath":"null"
+    "mongoPath":"mongodb+srv://jxmes_ilr:<CumBanking2021>@cluster0.qpjo4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
