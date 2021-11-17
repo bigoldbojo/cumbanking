@@ -189,16 +189,16 @@
     margin: 0 auto;
 }
 
-a, button {
+/*a, button {
     transition: 0.05s;
-}
+}*/
 
 a:link, a:visited {
-    color: #fff
+    color: var(--theme-color);
 }
 
 a:hover {
-    color: #aaa
+    color: #222
 }
 
 a:active {

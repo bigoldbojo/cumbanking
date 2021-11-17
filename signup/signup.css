@@ -1,0 +1,32 @@
+#content {
+    top: 278px; /* 78 if navigation not shown, 138 if navigation shown. */
+    height: 50vh;
+}
+
+#logindiv {
+    height: 250px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: var(--wid);
+    text-align: center;
+}
+
+#logindiv table {
+    width: var(--wid);
+    margin: 0 auto;
+}
+
+#logindiv td {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#logindiv .left {
+    text-align: right;
+}
+
+#logindiv .right {
+    text-align: left;
+}
